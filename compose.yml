@@ -1,12 +1,10 @@
-version: '3.8'
-
 services:
   app:
     build:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - ./vue-volume:/app
+      - ./vue-app:/app
     tty: true
     ports:
       - "8080:8080"
