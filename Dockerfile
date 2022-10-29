@@ -1,5 +1,5 @@
 FROM node:16.18.0
 
-WORKDIR /app
+WORKDIR /usr/src/app
 
 RUN npm install -g @vue/cli
