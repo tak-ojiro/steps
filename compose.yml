@@ -4,7 +4,7 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - ./vue-app:/usr/src/app
+      - ./vue-app:/app
     tty: true
     ports:
       - "8080:8080"
